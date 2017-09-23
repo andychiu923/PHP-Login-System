@@ -1,3 +1,12 @@
+<?php 
+	
+	// Allow the config
+	define('__CONFIG__', true);
+	// require the config
+	require_once "inc/config.php"; 
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,6 +48,9 @@
 			</form>
   		</div>
   	</div>
+
+
+  	<?php require_once "inc/footer.php"; ?>
 
     <!-- jQuery is required -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
