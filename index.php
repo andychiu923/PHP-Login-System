@@ -26,7 +26,12 @@
   	<div class="uk-section uk-container">
   		<?php 
   			echo "Hello World. Today is: ";
-  			echo date("Y m d"); ?>
+  			echo date("Y m d"); 
+  		?>
+  		<p>
+  			<a href="/login.php">Login</a>
+  			<a href="/register.php">Register</a>
+  		</p>
   	</div>
 
 
